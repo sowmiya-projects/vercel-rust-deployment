@@ -1,7 +1,11 @@
 [package]
-name = "vercel-rust-demo"
+name = "vercel-rust-deployment"
 version = "0.1.0"
 edition = "2021"
+
+[[bin]]
+name = "hello"
+path = "api/hello.rs"
 
 [dependencies]
 vercel_runtime = "1"
